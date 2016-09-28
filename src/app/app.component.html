@@ -8,10 +8,11 @@
 
   <md-card-content *ngIf="todoList.length">
     <md-list>
+      <form>
       <md-list-item *ngFor="let todo of todoList; let index=index">
 
         <div class="list-item">
-          <md-checkbox color="primary" type="checkbox" [(ngModel)]="todo.completed">
+          <md-checkbox color="primary" type="checkbox" [name]="'item'+index" [(ngModel)]="todo.completed">
             <span [class.completed]="todo.completed">{{todo.title}}</span>
           </md-checkbox>
 
@@ -28,6 +29,7 @@
         </div>
 
       </md-list-item>
+      </form>
     </md-list>
   </md-card-content>
 </md-card>

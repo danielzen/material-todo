@@ -1,7 +1,13 @@
 {
-  "name": "untitled",
+  "name": "material-todo",
   "version": "0.0.0",
+  "author": "Daniel Zen (http://zen.digital)",
   "license": "MIT",
+  "keywords": [
+    "angular",
+    "material-design",
+    "zendigital"
+  ],
   "angular-cli": {},
   "scripts": {
     "start": "ng serve",

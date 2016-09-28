@@ -8,4 +8,6 @@ describe('Component: Dialog', () => {
     let component = new DialogComponent();
     expect(component).toBeTruthy();
   });
+
+  // TODO: Add tests for OK & Cancel Buttons
 });
