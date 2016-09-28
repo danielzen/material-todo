@@ -2,6 +2,8 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15 and uses [Material Design ^2.0.0-alpha.9](https://github.com/angular/material2)
 
+![Angular Material Todo](images/angularMaterial2do.jpg)
+
 ## Install & Serve
 To get started, you will need node & npm installed. Type the following:
 
