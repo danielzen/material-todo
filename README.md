@@ -13,21 +13,20 @@ This will install all the necessary node packages and start the server on port 4
 
 You should be able to see the app running at [http://localhost:4200]()
 
-The article below (and graphics) were originally produced for [Net Magazine]
-(http://www.creativebloq.com/net-magazine), and now adheres to a Creative Commons 
-Licence ([CC BY-NC](https://en.wikipedia.org/wiki/Creative_Commons_license)), and may 
-be used for Non-Commercial use with attribution.
+The following article (and graphics) were originally produced for [Net Magazine]
+(http://www.creativebloq.com/net-magazine). It is now [available online](https://medium.com/@danielzen/build-a-todo-app-with-angular-material-and-the-angular-cli-d6340cb9ed31#.sohc11iad). It has a [Creative Commons 
+License](https://en.wikipedia.org/wiki/Creative_Commons_license), and may be used for Non-Commercial use with attribution.
+
+[![CC BY-NC 4.0](https://upload.wikimedia.org/wikipedia/commons/9/99/Cc-by-nc_icon.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ##### About the Author
 Daniel Zen  
-**W:** zen.digital  
+**W:** [zen.digital](http://zen.digital)
 **T:** @danielzen  
 **Job:** Chief Instruction Officer  
 **area of expertise:** Agile JavaScript Training
 
-# Build An Angular Material App
-## Daniel Zen walks through creating a DialogComponent & ToDo app with Angular Material and the Angular CLI
-GitHub URL: [https://github.com/danielzen/material-todo](https://github.com/danielzen/material-todo)
+# Build A ToDo app with Angular Material and the Angular CLI
 
 ![Angular Material Todo](images/angularMaterialTodo.jpg)
 
@@ -250,4 +249,4 @@ They remain hidden until you rollover (or click on mobile) with a little CSS, wh
 ![Material2DoApp6.png](images/Material2DoApp6.png)
 
 
-Keep in mind that Angular Material is still in beta, but ther will likely be no more breaking changes to the API. It is very much functioning and lives up to the claim of having a straightforward API that doesn't confuse developers. It was easy to leverage for the creation of a great looking app. Thanks go out to Jeremy Elbourn, Kara Erickson, Andrew Seguin, Paul Gschwendtner, Kristiyan Kostadinov, and all of the other contributors for their efforts.
+Keep in mind that Angular Material is still in beta, but there will likely be no more breaking changes to the API. It is very much functioning and lives up to the claim of having a straightforward API that doesn't confuse developers. It was easy to leverage for the creation of a great looking app. Thanks go out to Jeremy Elbourn, Kara Erickson, Andrew Seguin, Paul Gschwendtner, Kristiyan Kostadinov, and all of the other contributors for their efforts.
