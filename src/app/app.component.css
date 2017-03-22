@@ -1,25 +1,23 @@
 .list-item {
-  width: 100%
-}
-
-.list-item button .material-icons {
-  font-size: 16px
-}
-
-.list-item {
+  width: 100%;
   border-bottom: 1px solid #CCC;
 }
 
+.list-item button .material-icons {
+  font-size: 16px;
+  padding: 0;
+}
+
 .list-item:hover button {
-  float: right;
-  margin: 7px 5px;
-  width: 30px;
-  height: 30px;
-  display: inline;
+  display: block;
 }
 
 .list-item button {
-  display: none
+  display: none;
+  float: right;
+  margin: -4px 5px;
+  width: 30px;
+  height: 30px;
 }
 
 .list-item /deep/ .md-checkbox-label {
@@ -28,7 +26,7 @@
 
 .completed {
   color: #9d9d9d;
-  text-decoration: line-through
+  text-decoration: line-through;
 }
 
 .fab-add {
@@ -36,5 +34,4 @@
   right: 30px;
   top: 50px;
 }
-
 

@@ -4,32 +4,32 @@ import { DialogComponent } from './dialog/dialog.component';
 import { MaterialModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 
-describe('App: Untitled', () => {
+describe('App: MaterialTodo', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
         DialogComponent
       ],
-      imports: [FormsModule, MaterialModule.forRoot()]
+      imports: [ FormsModule, MaterialModule ]
     });
   });
 
   it('should create the app', async(() => {
-    let fixture = TestBed.createComponent(AppComponent);
-    let app = fixture.debugElement.componentInstance;
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
 
   it(`should have an empty todoList`, async(() => {
-    let fixture = TestBed.createComponent(AppComponent);
-    let app = fixture.debugElement.componentInstance;
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.debugElement.componentInstance;
     expect(app.todoList).toEqual([]);
   }));
 
   it(`should have okButtonText as 'Create task'`, async(() => {
-    let fixture = TestBed.createComponent(AppComponent);
-    let app = fixture.debugElement.componentInstance;
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.debugElement.componentInstance;
     expect(app.okButtonText).toEqual('Create task');
   }));
 });

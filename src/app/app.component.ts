@@ -6,11 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  showDialog: boolean = false;
+  showDialog = false;
   editingTodo: any = null;
-  fieldValue: string = '';
+  fieldValue = '';
   todoList: any = [];
-  okButtonText: string = 'Create task';
+  okButtonText = 'Create task';
 
   todoDialog(todo = null) {
     this.okButtonText = 'Create task';

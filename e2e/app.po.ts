@@ -1,11 +1,11 @@
-import { browser, element, by } from 'protractor/globals';
+import { browser, element, by } from 'protractor';
 
-export class UntitledPage {
+export class MaterialTodo {
   navigateTo() {
     return browser.get('/');
   }
 
-  getParagraphText() {
-    return element(by.css('app-root h1')).getText();
+  getToolbarText() {
+    return element(by.css('md-toolbar')).getText();
   }
 }

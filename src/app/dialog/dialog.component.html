@@ -5,10 +5,12 @@
     </md-toolbar>
     <md-card-content>
       <br>{{template}}<br><br>
-      <md-input class="full-width" [placeholder]="placeholder"
-                [(ngModel)]="value"
-                (keyup.enter)="emitValue(value)"
-                (keyup.escape)="emitValue(null)"></md-input>
+      <md-input-container class="full-width">
+        <input mdInput [placeholder]="placeholder"
+               [(ngModel)]="value"
+               (keyup.enter)="emitValue(value)"
+               (keyup.escape)="emitValue(null)"/>
+      </md-input-container>
     </md-card-content>
     <md-card-actions class="center">
       <button md-button (click)="emitValue(null)" color="primary">{{cancelText}}</button>

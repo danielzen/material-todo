@@ -1,14 +1,14 @@
-import { UntitledPage } from './app.po';
+import { MaterialTodo } from './app.po';
 
-describe('untitled App', function() {
-  let page: UntitledPage;
+describe('material-todo App', function() {
+  let page: MaterialTodo;
 
   beforeEach(() => {
-    page = new UntitledPage();
+    page = new MaterialTodo();
   });
 
-  it('should display message saying app works', () => {
+  it('Toolbar should contain "material-todo"', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getToolbarText()).toContain('material-todo');
   });
 });

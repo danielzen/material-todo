@@ -16,7 +16,7 @@ import { DialogComponent } from './dialog/dialog.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    MaterialModule.forRoot()
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent],

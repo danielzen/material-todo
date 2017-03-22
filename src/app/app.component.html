@@ -1,6 +1,6 @@
 <md-card class="todoapp">
   <md-toolbar color="primary">
-    material2-do
+    material-todo
     <button md-fab class="fab-add" (click)="todoDialog()">
       <md-icon>add</md-icon>
     </button>
@@ -9,9 +9,8 @@
   <md-card-content *ngIf="todoList.length">
     <md-list>
       <form>
-      <md-list-item *ngFor="let todo of todoList; let index=index">
+        <md-list-item *ngFor="let todo of todoList; let index=index" class="list-item">
 
-        <div class="list-item">
           <md-checkbox color="primary" type="checkbox" [name]="'item'+index" [(ngModel)]="todo.completed">
             <span [class.completed]="todo.completed">{{todo.title}}</span>
           </md-checkbox>
@@ -26,9 +25,8 @@
              <md-icon>mode_edit</md-icon>
            </button>
          </span>
-        </div>
 
-      </md-list-item>
+        </md-list-item>
       </form>
     </md-list>
   </md-card-content>
@@ -43,5 +41,3 @@
             (valueEmitted)="updateTodo($event)"
             [showPrompt]="showDialog">
 </app-dialog>
-
-
