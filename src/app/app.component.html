@@ -1,43 +1,9 @@
-<md-card class="todoapp">
-  <md-toolbar color="primary">
-    material-todo
-    <button md-fab class="fab-add" (click)="todoDialog()">
-      <md-icon>add</md-icon>
-    </button>
-  </md-toolbar>
-
-  <md-card-content *ngIf="todoList.length">
-    <md-list>
-      <form>
-        <md-list-item *ngFor="let todo of todoList; let index=index" class="list-item">
-
-          <md-checkbox color="primary" type="checkbox" [name]="'item'+index" [(ngModel)]="todo.completed">
-            <span [class.completed]="todo.completed">{{todo.title}}</span>
-          </md-checkbox>
-
-          <span>
-           <button md-mini-fab (click)="remove(index)" color="primary">
-             <md-icon>delete_forever</md-icon>
-           </button>
-
-           <button md-mini-fab (click)="todoDialog(todo)" color="primary"
-                   [disabled]="todo.completed">
-             <md-icon>mode_edit</md-icon>
-           </button>
-         </span>
-
-        </md-list-item>
-      </form>
-    </md-list>
-  </md-card-content>
-</md-card>
-
-
-<app-dialog [title]="'New Task'"
-            [template]="'Enter Task:'"
-            [placeholder]="'What do you need to do?'"
-            [okText]="okButtonText"
-            [value]="fieldValue"
-            (valueEmitted)="updateTodo($event)"
-            [showPrompt]="showDialog">
+<app-dialog [title]="'Dialog Prompt'"
+            [template]="'This is our new Material Design based Component:'"
+            [placeholder]="'Enter text here'"
+            [okText]="'Yes'"
+            [cancelText]="'No'"
+            [value]="'Starting Text'"
+            (valueEmitted)="log($event)"
+            [showPrompt]="true">
 </app-dialog>
