@@ -164,11 +164,11 @@ export class AppComponent {
 }
 ```
 
-Let’s take a look at our handiwork. If you haven’t already, you can serve up the app (the default port is 4200) by running:
+Let’s take a look at our handiwork. If you are working off the repo, you can switch to the ***`dialog`*** branch first `git checkout dialog`. You can serve up the app (the default port is 4200) by running:
 
-`npm run-script start`  # which in turn runs `ng server`
-
-You should see the following:
+`npm run-script start`  # which in turn runs `ng serve`
+ 
+ You should see the following:
 
 ![DialogPrompt.png](images/DialogPrompt.png)
 
