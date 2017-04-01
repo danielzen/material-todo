@@ -1,6 +1,6 @@
 # Material Todo
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-rc.2 and uses [Material Design ^2.0.0-beta.2](https://github.com/angular/material2). 
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0 and uses Angular 4 & [Material Design ^2.0.0-beta.2](https://github.com/angular/material2). 
 
 The code in this repository is available under the MIT License.
 
